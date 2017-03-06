@@ -1,0 +1,22 @@
+{
+  "name": "Wayback page adder",
+  "description": "This extension add the current instance of Webpage to Wayback machine.",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["add.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Add this page to Wayback machine." ,
+    "default_icon" : "add_wayback.png"
+  },
+  "icons" : {
+	"16" : "add_wayback.png", //Used as the favicon for an extension's pages
+	"48" : "add_wayback_32.png" //Used on the extension management page
+		
+  },
+  "manifest_version": 2
+}
